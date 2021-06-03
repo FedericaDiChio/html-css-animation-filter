@@ -202,3 +202,81 @@ transform: scale(0.5);
     }
 }
 
+
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: movetop13 3s linear;
+}
+
+@keyframes movetop13 {
+    0% {
+        left: 10%;
+        top: -10px; 
+    }
+
+    25% {
+        top: -10px;
+        left: calc(100% - 30px);
+    }
+
+    45% {
+        top: 100%;
+        left: calc(100% - 30px);
+    }
+
+    70% {
+        top: 100%;
+        left: 0;
+    }
+
+    90% {
+        top: -10%;
+        left: -20px;
+    }
+
+
+    100% {
+        
+            left: 10%;
+            top: -10%; 
+        }
+} 
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: movebottom13 3s linear;
+}
+
+@keyframes movebottom13 {
+    0% {
+        right: 10%;
+        bottom: -10px; 
+    }
+
+    25% {
+        bottom: -10px;
+        right: calc(100% - 30px);
+    }
+
+    45% {
+        bottom: 100%;
+        right: calc(100% - 30px);
+    }
+
+    70% {
+        bottom: 100%;
+        right: 0;
+    }
+
+    90% {
+        bottom: -10%;
+        right: -20px;
+    }
+
+
+    100% {
+        right: 10%;
+        bottom: -10%; 
+    }
+} 
+
+

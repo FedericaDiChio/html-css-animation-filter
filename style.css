@@ -170,7 +170,7 @@ transform: scale(0.5);
     animation: movetop 2s linear;
 }
 
-@keyframes movetop {
+@keyframes movetop12 {
     0% {
         right: 10%;
     }
@@ -188,7 +188,7 @@ transform: scale(0.5);
     animation: movebottom 2s linear;
 }
 
-@keyframes movebottom {
+@keyframes movebottom12 {
     0% {
         right: 15%;
     }
@@ -199,5 +199,26 @@ transform: scale(0.5);
 
     100% {
         right: 15%;
+    }
+}
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: movetop13 2s linear;
+}
+
+@keyframes movetop13 {
+    0% {
+        left: 10%;
+        top: -10%; 
+    }
+
+
+
+
+    100% {
+        0% {
+            left: 10%;
+            top: -10%; 
+        }
     }
 }

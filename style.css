@@ -167,7 +167,7 @@ transform: scale(0.5);
 }
 
 .ex-12-button:hover .ex-12-top-white {
-    animation: movetop 2s linear;
+    animation: movetop12 2s linear;
 }
 
 @keyframes movetop12 {

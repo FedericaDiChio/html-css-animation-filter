@@ -185,7 +185,7 @@ transform: scale(0.5);
 }
 
 .ex-12-button:hover .ex-12-bottom-white {
-    animation: movebottom 2s linear;
+    animation: movebottom12 2s linear;
 }
 
 @keyframes movebottom12 {
@@ -202,23 +202,3 @@ transform: scale(0.5);
     }
 }
 
-.ex-13-button:hover .ex-13-top-white {
-    animation: movetop13 2s linear;
-}
-
-@keyframes movetop13 {
-    0% {
-        left: 10%;
-        top: -10%; 
-    }
-
-
-
-
-    100% {
-        0% {
-            left: 10%;
-            top: -10%; 
-        }
-    }
-}
